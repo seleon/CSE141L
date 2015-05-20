@@ -1,0 +1,59 @@
+//psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/core_flattened.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/core_flattened.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package core_flattened_sv_unit
+-- Compiling module core_flattened
+
+Top level modules:
+	core_flattened
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/data_mem.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/data_mem.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package data_mem_sv_unit
+-- Compiling module data_mem
+
+Top level modules:
+	data_mem
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/core.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/core.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package core_sv_unit
+-- Compiling module core
+
+Top level modules:
+	core
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/cl_state_machine.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/cl_state_machine.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package cl_state_machine_sv_unit
+-- Compiling module cl_state_machine
+
+Top level modules:
+	cl_state_machine
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/disassemble.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/disassemble.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/reg_file.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/reg_file.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/instr_mem.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/instr_mem.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package instr_mem_sv_unit
+-- Compiling module instr_mem
+
+Top level modules:
+	instr_mem
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/net_packet_logger_s.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB2/lab2-2/net_packet_logger_s.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package net_packet_logger_s_sv_unit
+-- Compiling module network_packet_s_logger
+
+Top level modules:
+	network_packet_s_logger
+
+} {} {}}
