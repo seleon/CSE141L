@@ -17,6 +17,9 @@ module core #(parameter imem_addr_width_p=10
              ,output logic [31:0]               data_mem_addr
              );
 
+if_id_register if_id_i, if_id_o;
+id_exe_register id_exe_i, id_exe_o;
+
 //---- Adresses and Data ----//
 // Ins. memory address signals
 logic [imem_addr_width_p-1:0] PC_r, PC_n,
@@ -120,6 +123,23 @@ alu alu_1 (.rd_i(rd_val_or_zero)
           ,.jump_now_o(jump_now)
           );
 
+cl_state_machine state_machine (.instruction_i(instruction)
+                               ,.state_i(state_r)
+                               ,.exception_i(exception_o)
+                               ,.net_PC_write_cmd_IDLE_i(net_PC_write_cmd_IDLE)
+                               ,.stall_i(stall)
+                               ,.state_o(state_n)
+                               );
+
+// Decode module
+cl_decode decode (.instruction_i(instruction)
+
+                  ,.is_load_op_o(is_load_op_c)
+                  ,.op_writes_rf_o(op_writes_rf_c)
+                  ,.is_store_op_o(is_store_op_c)
+                  ,.is_mem_op_o(is_mem_op_c)
+                  ,.is_byte_op_o(is_byte_op_c)
+                  );
 // select the input data for Register file, from network, the PC_plus1 for JALR,
 // Data Memory or ALU result
 always_comb
@@ -220,24 +240,6 @@ always_comb
       end
   end
 
-// Decode module
-cl_decode decode (.instruction_i(instruction)
-
-                  ,.is_load_op_o(is_load_op_c)
-                  ,.op_writes_rf_o(op_writes_rf_c)
-                  ,.is_store_op_o(is_store_op_c)
-                  ,.is_mem_op_o(is_mem_op_c)
-                  ,.is_byte_op_o(is_byte_op_c)
-                  );
-
-// State machine
-cl_state_machine state_machine (.instruction_i(instruction)
-                               ,.state_i(state_r)
-                               ,.exception_i(exception_o)
-                               ,.net_PC_write_cmd_IDLE_i(net_PC_write_cmd_IDLE)
-                               ,.stall_i(stall)
-                               ,.state_o(state_n)
-                               );
 
 //---- Datapath with network ----//
 // Detect a valid packet for this core

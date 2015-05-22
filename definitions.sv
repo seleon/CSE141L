@@ -32,6 +32,7 @@
 
 `define kMYXOR 16'b10100_?????_??????
 `define kRBR   16'b10101_?????_??????
+`define kNOP   16'b10110_?????_??????
 
 // 20
 // 21
@@ -74,6 +75,8 @@ parameter ID_length_gp = 10;
 
 // Length of barrier output, which is equal to its mask size 
 parameter mask_length_gp = 3;
+
+parameter width = 32;
 
 // a struct for instructions
 typedef struct packed{
@@ -131,5 +134,29 @@ typedef struct packed {
         logic [mask_length_gp-1:0] barrier_mask_r_f;
         logic [mask_length_gp-1:0] barrier_r_f;
 } debug_s;
+
+// a struct for the IF_ID register file
+typedef struct packed {
+       instruction_s instruction;
+       logic [imem_addr_width_gp-1:0] net_packet_i;
+       logic [imem_addr_width_gp-1:0] net_reg_write_cmd;
+       logic [imem_addr_width_gp-1:0] imm_jump_add;
+       logic [imem_addr_width_gp-1:0] pc_plus_1;
+} if_id_register;
+
+// a struct for the ID_EXE register file
+typedef struct packed {
+       instruction_s instruction;
+       logic [imem_addr_width_gp-1:0] imm_jump_add;
+       logic [imem_addr_width_gp-1:0] pc_plus_1;
+       logic[width-1:0] rs_val;
+       logic[width-1:0] rd_val;
+       logic state_n;
+       logic is_load_op_c;
+       logic op_writes_rf_c;
+       logic is_mem_op_c;
+       logic is_store_op_c;
+       logic is_byte_op_c;
+} id_exe_register;
 
 `endif
