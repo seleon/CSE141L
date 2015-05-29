@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="core">
+		<CBX_INST_ENTRY INSTANCE_NAME="|core|instr_mem:imem|altsyncram:mem[0].opcode[4]__1" CBX_FILE_NAME="altsyncram_42e1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|core|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_f9m.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

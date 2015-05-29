@@ -1,0 +1,105 @@
+//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_decode.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_decode.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package cl_decode_sv_unit
+-- Compiling module cl_decode
+
+Top level modules:
+	cl_decode
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/IF_ID.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/IF_ID.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package IF_ID_sv_unit
+-- Compiling module if_id
+
+Top level modules:
+	if_id
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/definitions.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/definitions.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+
+Top level modules:
+	--none--
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/disassemble.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/disassemble.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package instr_mem_sv_unit
+-- Compiling module instr_mem
+
+Top level modules:
+	instr_mem
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package core_tb_sv_unit
+-- Compiling module core_tb
+
+Top level modules:
+	core_tb
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package net_packet_logger_s_sv_unit
+-- Compiling module network_packet_s_logger
+
+Top level modules:
+	network_packet_s_logger
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_flattened.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_flattened.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package core_flattened_sv_unit
+-- Compiling module core_flattened
+
+Top level modules:
+	core_flattened
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package miner_tb_sv_unit
+-- Compiling module miner_tb
+
+Top level modules:
+	miner_tb
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package data_mem_sv_unit
+-- Compiling module data_mem
+
+Top level modules:
+	data_mem
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/alu.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/alu.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package alu_sv_unit
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_state_machine.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_state_machine.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package cl_state_machine_sv_unit
+-- Compiling module cl_state_machine
+
+Top level modules:
+	cl_state_machine
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/reg_file.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/reg_file.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/ID_EXE.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/ID_EXE.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package ID_EXE_sv_unit
+-- Compiling module id_exe
+
+Top level modules:
+	id_exe
+
+} {} {}}

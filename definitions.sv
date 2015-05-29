@@ -99,6 +99,15 @@ PC    = 3'b011,
 BAR   = 3'b100
 } net_op_e;
 
+typedef struct packed{
+  logic is_load_op_c;
+  logic is_store_op_c;
+  logic is_byte_op_c;
+  logic op_writes_rf_c;
+  logic is_mem_op_c;
+  logic valid_to_mem_c;
+} ctrl_sig; 
+
 // a struct for network packets
 typedef struct packed{
         logic [ID_length_gp-1:0] ID; // 31..22  +32
@@ -141,14 +150,15 @@ typedef struct packed {
        logic [imem_addr_width_gp-1:0] net_packet_i;
        logic [imem_addr_width_gp-1:0] net_reg_write_cmd;
        logic [imem_addr_width_gp-1:0] imm_jump_add;
-       logic [imem_addr_width_gp-1:0] pc_plus_1;
+       logic [imem_addr_width_gp-1:0] pc_plus1;
 } if_id_register;
 
 // a struct for the ID_EXE register file
 typedef struct packed {
        instruction_s instruction;
+       ctrl_sig ctrl;
        logic [imem_addr_width_gp-1:0] imm_jump_add;
-       logic [imem_addr_width_gp-1:0] pc_plus_1;
+       logic [imem_addr_width_gp-1:0] pc_plus1;
        logic[width-1:0] rs_val;
        logic[width-1:0] rd_val;
        logic state_n;
@@ -158,5 +168,4 @@ typedef struct packed {
        logic is_store_op_c;
        logic is_byte_op_c;
 } id_exe_register;
-
 `endif
