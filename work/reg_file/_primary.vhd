@@ -9,7 +9,7 @@ entity reg_file is
         rs_addr_i       : in     vl_logic_vector;
         rd_addr_i       : in     vl_logic_vector;
         wen_i           : in     vl_logic;
-        wa_i            : in     vl_logic;
+        wa_i            : in     vl_logic_vector;
         write_data_i    : in     vl_logic_vector(31 downto 0);
         rs_val_o        : out    vl_logic_vector(31 downto 0);
         rd_val_o        : out    vl_logic_vector(31 downto 0)

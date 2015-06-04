@@ -19,7 +19,7 @@ Z9 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/alu.sv
 Z10 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/alu.sv
 L0 4
 Z11 OV;L;10.1e;51
-Z12 !s108 1432864140.861000
+Z12 !s108 1433286324.587000
 Z13 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/alu.sv|
 Z14 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/alu.sv|
 Z15 o-work work -sv -O0
@@ -52,20 +52,20 @@ R15
 vcl_decode
 R1
 Z21 DXx4 work 17 cl_decode_sv_unit 0 22 aIzQ=RKnjgm1fn0QknKR<2
-Z22 Vj2XdPkIgM0O^Hn@`n`AWZ1
+Z22 VmZ4dfi[V=FcX7n0f>M0oJ0
 r1
 31
-Z23 !s100 DZ_kj[NaiDjYiZnU7h?Uf2
-Z24 Ij`nj8SJaPeD2O=W^iWAJ>2
+Z23 !s100 ZIl?S2?G?RU[XaVfLnN]K2
+Z24 IH@0PdcFB8GFKdHB9j>3MJ2
 Z25 !s105 cl_decode_sv_unit
 S1
 R7
-Z26 w1432152190
+Z26 w1432881669
 Z27 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_decode.sv
 Z28 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_decode.sv
 L0 4
 R11
-Z29 !s108 1432864141.049000
+Z29 !s108 1433286324.852000
 Z30 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_decode.sv|
 Z31 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_decode.sv|
 R15
@@ -81,7 +81,7 @@ Z33 !s100 [?DG]ooac]Fh0fJ<S5c1_3
 Z34 IaIzQ=RKnjgm1fn0QknKR<2
 S1
 R7
-R19
+R26
 R27
 R28
 R20
@@ -111,7 +111,7 @@ Z41 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_state_machine.sv
 Z42 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_state_machine.sv
 L0 3
 R11
-Z43 !s108 1432864141.267000
+Z43 !s108 1433286325.103000
 Z44 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_state_machine.sv|
 Z45 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_state_machine.sv|
 R15
@@ -146,65 +146,65 @@ R1
 Z49 DXx4 work 12 core_sv_unit 0 22 Fd<<;X^I:lFeK0=9?3UU32
 Z50 V8g;U8en<PLBg@@AL4CL>f3
 r1
+!s85 0
 31
-Z51 IjId6J?ccg=dLaVc>WB@nE0
-Z52 !s105 core_sv_unit
+!i10b 1
+!s100 I`W7Hd]SLO0=Dh2Rcf]983
+IiIjN08W5iA`2XjcA1:7dK0
+Z51 !s105 core_sv_unit
 S1
 R7
-Z53 w1432864136
-Z54 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv
-Z55 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv
+Z52 w1433286979
+Z53 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv
+Z54 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv
 L0 3
 R11
-Z56 !s108 1432864141.455000
-Z57 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv|
-Z58 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv|
-R15
-Z59 !s100 VoT?OW7fgHVAMkhciI;T03
-!s85 0
-!i10b 1
+Z55 !s108 1433287034.469000
+Z56 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv|
+Z57 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv|
 !s101 -O0
+R15
 vcore_flattened
 R1
-Z60 DXx4 work 22 core_flattened_sv_unit 0 22 N0ZhAchS3nkkag=5JM90z1
-Z61 V2R0=69R;zAfBGzKl1Q]2X0
+Z58 DXx4 work 22 core_flattened_sv_unit 0 22 N0ZhAchS3nkkag=5JM90z1
+Z59 V2R0=69R;zAfBGzKl1Q]2X0
 r1
 31
-Z62 !s100 Em^EO550Y19Vj=1TG=<l:1
-Z63 I6kjXmN<5omB5Wc`?P]kma0
-Z64 !s105 core_flattened_sv_unit
+Z60 !s100 Em^EO550Y19Vj=1TG=<l:1
+Z61 I6kjXmN<5omB5Wc`?P]kma0
+Z62 !s105 core_flattened_sv_unit
 S1
 R7
-Z65 w1430294373
-Z66 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_flattened.sv
-Z67 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_flattened.sv
+Z63 w1430294373
+Z64 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_flattened.sv
+Z65 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_flattened.sv
 L0 4
 R11
-Z68 !s108 1432864141.642000
-Z69 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_flattened.sv|
-Z70 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_flattened.sv|
+Z66 !s108 1433286325.509000
+Z67 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_flattened.sv|
+Z68 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_flattened.sv|
 R15
 !s85 0
 !i10b 1
 !s101 -O0
 Xcore_flattened_sv_unit
 R1
-Z71 VN0ZhAchS3nkkag=5JM90z1
+Z69 VN0ZhAchS3nkkag=5JM90z1
 r1
 31
-Z72 !s100 ESLK]B^S3aU2nE8H38ZQU1
-Z73 IN0ZhAchS3nkkag=5JM90z1
+Z70 !s100 ESLK]B^S3aU2nE8H38ZQU1
+Z71 IN0ZhAchS3nkkag=5JM90z1
 S1
 R7
 R19
-R66
-R67
+R64
+R65
 R20
 L1 56
 R11
+R66
+R67
 R68
-R69
-R70
 R15
 !s85 0
 !i10b 1
@@ -212,68 +212,68 @@ R15
 !s101 -O0
 Xcore_sv_unit
 R1
-Z74 VFd<<;X^I:lFeK0=9?3UU32
+Z72 VFd<<;X^I:lFeK0=9?3UU32
 r1
+!s85 0
 31
-Z75 !s100 KUP=<Rh;?<Y`YBah:Hn:11
-Z76 IFd<<;X^I:lFeK0=9?3UU32
+!i10b 1
+Z73 !s100 KUP=<Rh;?<Y`YBah:Hn:11
+Z74 IFd<<;X^I:lFeK0=9?3UU32
+!i103 1
 S1
 R7
+R52
 R53
 R54
-R55
 R20
 L1 56
 R11
+R55
 R56
 R57
-R58
-R15
-!s85 0
-!i10b 1
-!i103 1
 !s101 -O0
+R15
 vcore_tb
 R1
-Z77 DXx4 work 15 core_tb_sv_unit 0 22 l]cDoaoVmem@bQjlGD1@81
-Z78 VlN3iUPNV?OYGNgj@DJaoE2
+Z75 DXx4 work 15 core_tb_sv_unit 0 22 l]cDoaoVmem@bQjlGD1@81
+Z76 VlN3iUPNV?OYGNgj@DJaoE2
 r1
 31
-Z79 !s100 5CkcM?ZSnB`46de;c>joG1
-Z80 ITa];hh9SmV2^Yb;Dh?MeU3
-Z81 !s105 core_tb_sv_unit
+Z77 !s100 EE3YIXebj>4k9nUd;M9T:1
+Z78 IC[C5k^l7GFFh3d:IBUNeC0
+Z79 !s105 core_tb_sv_unit
 S1
 R7
-Z82 w1432855239
-Z83 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv
-Z84 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv
+Z80 w1432955882
+Z81 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv
+Z82 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv
 L0 17
 R11
-Z85 !s108 1432864141.861000
-Z86 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv|
-Z87 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv|
+Z83 !s108 1433286325.712000
+Z84 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv|
+Z85 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv|
 R15
 !s85 0
 !i10b 1
 !s101 -O0
 Xcore_tb_sv_unit
 R1
-Z88 Vl]cDoaoVmem@bQjlGD1@81
+Z86 Vl]cDoaoVmem@bQjlGD1@81
 r1
 31
-Z89 !s100 IfC_aejAlT4Q37lKXTon=2
-Z90 Il]cDoaoVmem@bQjlGD1@81
+Z87 !s100 IfC_aejAlT4Q37lKXTon=2
+Z88 Il]cDoaoVmem@bQjlGD1@81
 S1
 R7
+R80
+R81
 R82
-R83
-R84
 R20
 L1 56
 R11
+R83
+R84
 R85
-R86
-R87
 R15
 !s85 0
 !i10b 1
@@ -281,45 +281,45 @@ R15
 !s101 -O0
 vdata_mem
 R1
-Z91 DXx4 work 16 data_mem_sv_unit 0 22 KmU?cz]4XlSLBKn`@=UY=0
-Z92 VJTgBNdnj9c=zg80[gUozo3
+Z89 DXx4 work 16 data_mem_sv_unit 0 22 KmU?cz]4XlSLBKn`@=UY=0
+Z90 VJTgBNdnj9c=zg80[gUozo3
 r1
 31
-Z93 !s100 AL@PiJg:A8Z?VlkAe^jd30
-Z94 I4^23]lP=8LaP=TZc:E4iM0
-Z95 !s105 data_mem_sv_unit
+Z91 !s100 AL@PiJg:A8Z?VlkAe^jd30
+Z92 I4^23]lP=8LaP=TZc:E4iM0
+Z93 !s105 data_mem_sv_unit
 S1
 R7
-R65
-Z96 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv
-Z97 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv
+R63
+Z94 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv
+Z95 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv
 L0 11
 R11
-Z98 !s108 1432864142.033000
-Z99 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv|
-Z100 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv|
+Z96 !s108 1433286325.931000
+Z97 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv|
+Z98 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv|
 R15
 !s85 0
 !i10b 1
 !s101 -O0
 Xdata_mem_sv_unit
 R1
-Z101 VKmU?cz]4XlSLBKn`@=UY=0
+Z99 VKmU?cz]4XlSLBKn`@=UY=0
 r1
 31
-Z102 !s100 R^8eZLBc3<koW4eDKk`n42
-Z103 IKmU?cz]4XlSLBKn`@=UY=0
+Z100 !s100 R^8eZLBc3<koW4eDKk`n42
+Z101 IKmU?cz]4XlSLBKn`@=UY=0
 S1
 R7
 R19
-R96
-R97
+R94
+R95
 R20
 L1 56
 R11
+R96
+R97
 R98
-R99
-R100
 R15
 !s85 0
 !i10b 1
@@ -327,185 +327,185 @@ R15
 !s101 -O0
 Xdefinitions_sv_unit
 R1
-Z104 !s100 =fLQ?[XA5_FaN<N:Z[BzA1
-Z105 I8C^e>1;oJ51m;YUbd6YZX0
-Z106 V8C^e>1;oJ51m;YUbd6YZX0
+Z102 !s100 =fLQ?[XA5_FaN<N:Z[BzA1
+Z103 I8C^e>1;oJ51m;YUbd6YZX0
+Z104 V8C^e>1;oJ51m;YUbd6YZX0
 S1
 R7
 R19
-Z107 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/definitions.sv
-Z108 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/definitions.sv
+Z105 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/definitions.sv
+Z106 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/definitions.sv
 L0 56
 R11
 r1
 31
-Z109 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/definitions.sv|
+Z107 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/definitions.sv|
 R15
-Z110 !s108 1432864142.236000
-Z111 !s107 //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/definitions.sv|
+Z108 !s108 1433286326.181000
+Z109 !s107 //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/definitions.sv|
 !i10b 1
 !i103 1
 !s85 0
 !s101 -O0
 vid_exe
 R1
-Z112 DXx4 work 14 ID_EXE_sv_unit 0 22 ;[P9O>mObEcnP8CGz;Y;>1
-Z113 VC=7]dJ]>G_J>To8]1`:420
+Z110 DXx4 work 14 ID_EXE_sv_unit 0 22 ;[P9O>mObEcnP8CGz;Y;>1
+Z111 VC=7]dJ]>G_J>To8]1`:420
 r1
 31
-Z114 !s100 RX9c1g`gUKDCz_WiAEj?90
-Z115 I5N=Be[3ZMUhKdnLRWB>Eh0
-Z116 !s105 ID_EXE_sv_unit
+Z112 !s100 RX9c1g`gUKDCz_WiAEj?90
+Z113 I5N=Be[3ZMUhKdnLRWB>Eh0
+Z114 !s105 ID_EXE_sv_unit
 S1
 R7
-Z117 w1432338957
-Z118 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/ID_EXE.sv
-Z119 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/ID_EXE.sv
+Z115 w1432338957
+Z116 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/ID_EXE.sv
+Z117 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/ID_EXE.sv
 L0 3
 R11
-Z120 !s108 1432864142.470000
-Z121 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/ID_EXE.sv|
-Z122 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/ID_EXE.sv|
+Z118 !s108 1433286326.399000
+Z119 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/ID_EXE.sv|
+Z120 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/ID_EXE.sv|
 R15
 !s85 0
 !i10b 1
 !s101 -O0
 XID_EXE_sv_unit
 R1
-Z123 V;[P9O>mObEcnP8CGz;Y;>1
+Z121 V;[P9O>mObEcnP8CGz;Y;>1
 r1
 31
-Z124 !s100 gL]^d0=Gd<P_Eh@JZE5CR2
-Z125 I;[P9O>mObEcnP8CGz;Y;>1
+Z122 !s100 gL]^d0=Gd<P_Eh@JZE5CR2
+Z123 I;[P9O>mObEcnP8CGz;Y;>1
 S1
 R7
 R19
-R118
-R119
+R116
+R117
 R20
 L1 56
 R11
+R118
+R119
 R120
-R121
-R122
 R15
-Z126 n@i@d_@e@x@e_sv_unit
+Z124 n@i@d_@e@x@e_sv_unit
 !s85 0
 !i10b 1
 !i103 1
 !s101 -O0
-vif_id
+vIF_ID
 R1
-Z127 DXx4 work 13 IF_ID_sv_unit 0 22 ]A?TE<3YY0SWCXZjo;d`[3
-Z128 Vg5dhC`6A<:kaHGSn;>_`21
+Z125 DXx4 work 13 IF_ID_sv_unit 0 22 [M9?AeCIW9N1JAMkH3MI13
+Z126 Vj`8e5aQK_RN[9C@TX?KIC3
 r1
 31
-Z129 !s100 8l6NMGnV[@E3UThlz0nk43
-Z130 ITd=h^GMA<TSjYmYMP3hiO2
-Z131 !s105 IF_ID_sv_unit
+Z127 IMbL@7D]9:5=KGkC>Sd5U]2
 S1
 R7
-Z132 w1432338948
-Z133 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/IF_ID.sv
-Z134 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/IF_ID.sv
+Z128 w1432338242
+Z129 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/IF_ID.sv
+Z130 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/IF_ID.sv
 L0 3
 R11
-Z135 !s108 1432864142.689000
-Z136 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/IF_ID.sv|
-Z137 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/IF_ID.sv|
+Z131 !s108 1432338499.304000
+Z132 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/IF_ID.sv|
+Z133 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/IF_ID.sv|
 R15
+Z134 n@i@f_@i@d
+Z135 !s100 el7n`91GV_901NPLnWXEF1
+Z136 !s105 IF_ID_sv_unit
 !s85 0
 !i10b 1
 !s101 -O0
-vIF_ID
+vif_id
 R1
-Z138 DXx4 work 13 IF_ID_sv_unit 0 22 [M9?AeCIW9N1JAMkH3MI13
-Z139 Vj`8e5aQK_RN[9C@TX?KIC3
+Z137 DXx4 work 13 IF_ID_sv_unit 0 22 ]A?TE<3YY0SWCXZjo;d`[3
+Z138 Vg5dhC`6A<:kaHGSn;>_`21
 r1
 31
-Z140 IMbL@7D]9:5=KGkC>Sd5U]2
+Z139 !s100 8l6NMGnV[@E3UThlz0nk43
+Z140 ITd=h^GMA<TSjYmYMP3hiO2
+R136
 S1
 R7
-Z141 w1432338242
-R133
-R134
+Z141 w1432338948
+R129
+R130
 L0 3
 R11
-Z142 !s108 1432338499.304000
-R136
-R137
+Z142 !s108 1433286326.602000
+R132
+R133
 R15
-Z143 n@i@f_@i@d
-Z144 !s100 el7n`91GV_901NPLnWXEF1
-R131
 !s85 0
 !i10b 1
 !s101 -O0
 XIF_ID_sv_unit
 R1
-Z145 V]A?TE<3YY0SWCXZjo;d`[3
+Z143 V]A?TE<3YY0SWCXZjo;d`[3
 r1
 31
-Z146 !s100 TG1^R7>QS2Gni]8dPf@Nn3
-Z147 I]A?TE<3YY0SWCXZjo;d`[3
+Z144 !s100 TG1^R7>QS2Gni]8dPf@Nn3
+Z145 I]A?TE<3YY0SWCXZjo;d`[3
 S1
 R7
 R19
-R133
-R134
+R129
+R130
 R20
 L1 56
 R11
-R135
-R136
-R137
+R142
+R132
+R133
 R15
-Z148 n@i@f_@i@d_sv_unit
+Z146 n@i@f_@i@d_sv_unit
 !s85 0
 !i10b 1
 !i103 1
 !s101 -O0
 vinstr_mem
 R1
-Z149 DXx4 work 17 instr_mem_sv_unit 0 22 B:??Y@W=QZa_VDg;IPc4W2
-Z150 VDQ?^WH[FcZb76a^THbzWH0
+Z147 DXx4 work 17 instr_mem_sv_unit 0 22 B:??Y@W=QZa_VDg;IPc4W2
+Z148 VDQ?^WH[FcZb76a^THbzWH0
 r1
 31
-Z151 !s100 BXH<7hN683S1Vj5ZaF=cd1
-Z152 IL3gmzDzM2<8M[_3i>A7k:1
-Z153 !s105 instr_mem_sv_unit
+Z149 !s100 BXH<7hN683S1Vj5ZaF=cd1
+Z150 IL3gmzDzM2<8M[_3i>A7k:1
+Z151 !s105 instr_mem_sv_unit
 S1
 R7
-Z154 w1432857986
-Z155 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv
-Z156 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv
+Z152 w1432866458
+Z153 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv
+Z154 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv
 L0 5
 R11
-Z157 !s108 1432864142.908000
-Z158 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv|
-Z159 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv|
+Z155 !s108 1433286326.852000
+Z156 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv|
+Z157 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv|
 R15
 !s85 0
 !i10b 1
 !s101 -O0
 Xinstr_mem_sv_unit
 R1
-Z160 VB:??Y@W=QZa_VDg;IPc4W2
+Z158 VB:??Y@W=QZa_VDg;IPc4W2
 r1
 31
-Z161 !s100 dnYm7W:nRjSb2WbHS;nQO2
-Z162 IB:??Y@W=QZa_VDg;IPc4W2
+Z159 !s100 dnYm7W:nRjSb2WbHS;nQO2
+Z160 IB:??Y@W=QZa_VDg;IPc4W2
 S1
 R7
+R152
+R153
 R154
-R155
-R156
 R20
 L1 56
 R11
+R155
+R156
 R157
-R158
-R159
 R15
 !s85 0
 !i10b 1
@@ -513,45 +513,45 @@ R15
 !s101 -O0
 vminer_tb
 R1
-Z163 DXx4 work 16 miner_tb_sv_unit 0 22 OmH6W8KTbX9DFe[2X>@YG3
-Z164 VmUcjK`[BR2I4D=oC[X9C`0
+Z161 DXx4 work 16 miner_tb_sv_unit 0 22 OmH6W8KTbX9DFe[2X>@YG3
+Z162 VmUcjK`[BR2I4D=oC[X9C`0
 r1
 31
-Z165 !s100 BC>P9<cn^mOVd8mM:V72C2
-Z166 IJOlMLk_RRQ:hc7nnYU:>Z0
-Z167 !s105 miner_tb_sv_unit
+Z163 !s100 BC>P9<cn^mOVd8mM:V72C2
+Z164 IJOlMLk_RRQ:hc7nnYU:>Z0
+Z165 !s105 miner_tb_sv_unit
 S1
 R7
-Z168 w1431643063
-Z169 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv
-Z170 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv
+Z166 w1432955864
+Z167 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv
+Z168 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv
 L0 21
 R11
-Z171 !s108 1432864143.142000
-Z172 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv|
-Z173 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv|
+Z169 !s108 1433286327.087000
+Z170 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv|
+Z171 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv|
 R15
 !s85 0
 !i10b 1
 !s101 -O0
 Xminer_tb_sv_unit
 R1
-Z174 VOmH6W8KTbX9DFe[2X>@YG3
+Z172 VOmH6W8KTbX9DFe[2X>@YG3
 r1
 31
-Z175 !s100 k7^37n:klTM;go8_bhLaa2
-Z176 IOmH6W8KTbX9DFe[2X>@YG3
+Z173 !s100 k7^37n:klTM;go8_bhLaa2
+Z174 IOmH6W8KTbX9DFe[2X>@YG3
 S1
 R7
-R19
-R169
-R170
+R166
+R167
+R168
 R20
 L1 56
 R11
+R169
+R170
 R171
-R172
-R173
 R15
 !s85 0
 !i10b 1
@@ -559,22 +559,22 @@ R15
 !s101 -O0
 Xnet_packet_logger_s_sv_unit
 R1
-Z177 VFZ1VfW]VXA2Xh_WZIeT_R3
+Z175 VFZ1VfW]VXA2Xh_WZIeT_R3
 r1
 31
-Z178 !s100 9i658`S>z1:oQ=5C^ZMm]3
-Z179 IFZ1VfW]VXA2Xh_WZIeT_R3
+Z176 !s100 9i658`S>z1:oQ=5C^ZMm]3
+Z177 IFZ1VfW]VXA2Xh_WZIeT_R3
 S1
 R7
 R19
-Z180 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv
-Z181 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv
+Z178 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv
+Z179 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv
 R20
 L1 56
 R11
-Z182 !s108 1432864143.299000
-Z183 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv|
-Z184 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv|
+Z180 !s108 1433286327.259000
+Z181 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv|
+Z182 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv|
 R15
 !s85 0
 !i10b 1
@@ -582,46 +582,46 @@ R15
 !s101 -O0
 vnetwork_packet_s_logger
 R1
-Z185 DXx4 work 27 net_packet_logger_s_sv_unit 0 22 FZ1VfW]VXA2Xh_WZIeT_R3
-Z186 VPlgif>=;4=jBTE<GHm7GV1
+Z183 DXx4 work 27 net_packet_logger_s_sv_unit 0 22 FZ1VfW]VXA2Xh_WZIeT_R3
+Z184 VPlgif>=;4=jBTE<GHm7GV1
 r1
 31
-Z187 !s100 85b@RA>HAN3DZ>i>;cj5l3
-Z188 IP297n9O>XYO<8NK:X8ek:1
-Z189 !s105 net_packet_logger_s_sv_unit
+Z185 !s100 85b@RA>HAN3DZ>i>;cj5l3
+Z186 IP297n9O>XYO<8NK:X8ek:1
+Z187 !s105 net_packet_logger_s_sv_unit
 S1
 R7
-R65
-R180
-R181
+R63
+R178
+R179
 L0 8
 R11
+R180
+R181
 R182
-R183
-R184
 R15
 !s85 0
 !i10b 1
 !s101 -O0
 vreg_file
 R1
-!i10b 1
-Z190 !s100 <jc0WD@cN>oOhSXD2j5Wo0
-Z191 I17QM9[26cS6LHU<2zeb243
-Z192 VAXCM7>23=[FbmRScY^kBV2
-Z193 !s105 reg_file_sv_unit
+Z188 !s100 YKcVO72eSGL@;fL;WE>;63
+Z189 I[h2acb178P?3Rf1D`j=8>2
+Z190 V0=Yzn^3<idj]UYV`z2PcL2
+Z191 !s105 reg_file_sv_unit
 S1
 R7
-Z194 w1432862824
-Z195 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/reg_file.sv
-Z196 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/reg_file.sv
+Z192 w1432882078
+Z193 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/reg_file.sv
+Z194 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/reg_file.sv
 L0 2
 R11
 r1
-!s85 0
 31
-!s108 1432864143.517000
-!s107 //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/reg_file.sv|
-Z197 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/reg_file.sv|
-!s101 -O0
+Z195 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/reg_file.sv|
 R15
+!i10b 1
+!s85 0
+Z196 !s108 1433286327.477000
+Z197 !s107 //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/reg_file.sv|
+!s101 -O0

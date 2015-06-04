@@ -168,4 +168,21 @@ typedef struct packed {
        logic is_store_op_c;
        logic is_byte_op_c;
 } id_exe_register;
+
+
+// a struct for the pipeline signals used for forwarding
+typedef struct packed {
+       instruction_s instruction;
+       ctrl_sig ctrl;
+       logic [imem_addr_width_gp-1:0] imm_jump_add;
+       logic [imem_addr_width_gp-1:0] pc_plus1;
+       logic[width-1:0] rs_val;
+       logic[width-1:0] rd_val;
+       logic state_n;
+       logic is_load_op_c;
+       logic op_writes_rf_c;
+       logic is_mem_op_c;
+       logic is_store_op_c;
+       logic is_byte_op_c;
+} pipeline_registers;
 `endif
