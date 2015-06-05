@@ -17,8 +17,8 @@ always_ff @ (posedge clk)
   begin
     if (wen_i)
       mem[addr_i] <= instruction_i;
-     else if (nop_i)
-        instruction_o <= 0;
+    else if (nop_i)
+      instruction_o <= 0;
     else
       instruction_o <= mem[addr_i];
   end

@@ -22,4 +22,3 @@ always_ff @ (posedge clk)
   end
 
 endmodule
-

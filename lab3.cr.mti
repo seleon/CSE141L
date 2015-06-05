@@ -6,13 +6,11 @@ Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
 Top level modules:
 	cl_decode
 
-} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/IF_ID.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/IF_ID.sv
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/definitions.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/definitions.sv
 Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
--- Compiling package IF_ID_sv_unit
--- Compiling module if_id
 
 Top level modules:
-	if_id
+	--none--
 
 } {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/disassemble.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/disassemble.sv
 Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
@@ -87,13 +85,5 @@ Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
 
 Top level modules:
 	reg_file
-
-} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/ID_EXE.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/ID_EXE.sv
-Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
--- Compiling package ID_EXE_sv_unit
--- Compiling module id_exe
-
-Top level modules:
-	id_exe
 
 } {} {}}

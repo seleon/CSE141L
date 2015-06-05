@@ -10,9 +10,9 @@
 
 // TODO: Edit the file names below to match your Assembler output files.
 // read from assembled files and store in buffers
-   `define hex_i_file "miner_i.hex"
-   `define hex_r_file "miner_r.hex"
-   `define hex_d_file "output_d.hex"
+   `define hex_i_file "tester_i_original.hex"
+   `define hex_r_file "tester_r_original.hex"
+   `define hex_d_file "tester_d_original.hex"
 
 module core_tb();
 
