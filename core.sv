@@ -80,18 +80,16 @@ logic insert_nop_r, insert_nop_n;
 
 logic fwd_rd, fwd_rs;
 
+mem_out_s mem_wb_from_mem_i;
+
+logic[31:0] mem_wb_alu_result;
+logic[imem_addr_width_p-1:0] mem_wb_pc_plus1;
+
 //---- Connection to external modules ----//
 
 // Suppress warnings
 assign net_packet_o = net_packet_i;
 
-// Data_mem
-assign to_mem_o = '{write_data    : exe_mem_i.rs_val
-                   ,valid         : valid_to_mem_c
-                   ,wen           : exe_mem_i.ctrl.is_store_op_c
-                   ,byte_not_word : exe_mem_i.ctrl.is_byte_op_c
-                   ,yumi          : yumi_to_mem_c
-                   };
 
 assign data_mem_addr = alu_result;
 
@@ -197,6 +195,14 @@ assign exe_mem_i.rs_val = id_exe_i.rs_val;
 assign exe_mem_i.rd_val = id_exe_i.rd_val;
 assign exe_mem_i.state_n = id_exe_i.state_n;
 
+// Data_mem
+assign to_mem_o = '{write_data    : exe_mem_i.rs_val
+                   ,valid         : valid_to_mem_c
+                   ,wen           : exe_mem_i.ctrl.is_store_op_c
+                   ,byte_not_word : exe_mem_i.ctrl.is_byte_op_c
+                   ,yumi          : yumi_to_mem_c
+                   };
+
 // Decode module
 cl_decode decode (.instruction_i(if_id_i.instruction)
                   ,.ctrl_o(ctrl_o)
@@ -268,6 +274,14 @@ begin
   endcase
 end
 
+assign mem_wb_o.instruction = exe_mem_i.instruction;
+assign mem_wb_o.ctrl = exe_mem_i.ctrl;
+assign mem_wb_o.rs_val = exe_mem_i.rs_val;
+assign mem_wb_o.rd_val = exe_mem_i.rd_val;
+assign mem_wb_o.imm_jump_add = exe_mem_i.imm_jump_add;
+assign mem_wb_o.pc_plus1 = exe_mem_i.pc_plus1;
+
+                   
 // Sequential part, including PC, barrier, exception and state
 always_ff @ (posedge clk)
   begin
@@ -284,6 +298,7 @@ always_ff @ (posedge clk)
 
         if_id_i <= 0;
         id_exe_i <= 0;  
+        mem_wb_i <= 0;
         nop_ctr <= 0;
       end
 
@@ -302,6 +317,7 @@ always_ff @ (posedge clk)
           else begin
             if_id_i <= if_id_o;
             id_exe_i <= id_exe_o;
+            mem_wb_i <= mem_wb_o;
           end
         end
 
