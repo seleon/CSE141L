@@ -47,6 +47,14 @@ Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
 Top level modules:
 	core_flattened
 
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package miner_tb_sv_unit
+-- Compiling module miner_tb
+
+Top level modules:
+	miner_tb
+
 } {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv
 Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
 -- Compiling package data_mem_sv_unit
@@ -54,14 +62,6 @@ Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
 
 Top level modules:
 	data_mem
-
-} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv
-Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
--- Compiling package core_sv_unit
--- Compiling module core
-
-Top level modules:
-	core
 
 } {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/alu.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/alu.sv
 Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013

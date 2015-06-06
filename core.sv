@@ -19,6 +19,8 @@ module core #(parameter imem_addr_width_p=10
 
 if_id_register if_id_i, if_id_o;
 id_exe_register id_exe_i, id_exe_o;
+exe_mem_register exe_mem_i, exe_mem_o;
+mem_wb_register mem_wb_i, mem_wb_o;
 
 //---- Adresses and Data ----//
 // Ins. memory address signals
@@ -131,6 +133,7 @@ assign id_exe_o.imm_jump_add = if_id_i.imm_jump_add;
 assign id_exe_o.pc_plus1 = if_id_i.pc_plus1;
 assign id_exe_o.rs_val = rs_val_or_zero;
 assign id_exe_o.rd_val = rd_val_or_zero;
+assign id_exe_o.state_n = state_n;
 
 // ALU
 alu alu_1 (.rd_i(id_exe_i.rd_val)
@@ -201,6 +204,8 @@ always_comb
 assign PC_wen = (net_PC_write_cmd_IDLE || ~stall);
 
 assign if_id_o.instruction = instruction;
+assign if_id_o.net_packet_i = net_packet_i;
+assign if_id_o.net_reg_write_cmd = net_reg_write_cmd;
 assign if_id_o.imm_jump_add = imm_jump_add;
 assign if_id_o.pc_plus1 = pc_plus1;
 
