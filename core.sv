@@ -129,9 +129,8 @@ assign id_exe_o.instruction = if_id_i.instruction;
 assign id_exe_o.ctrl = ctrl_o;
 assign id_exe_o.imm_jump_add = if_id_i.imm_jump_add;
 assign id_exe_o.pc_plus1 = if_id_i.pc_plus1;
-assign id_exe_o.rs_val = rs_val;
-assign id_exe_o.rd_val = rd_val;
-assign id_exe_o.state_n = state_n;
+assign id_exe_o.rs_val = rs_val_or_zero;
+assign id_exe_o.rd_val = rd_val_or_zero;
 
 // ALU
 alu alu_1 (.rd_i(id_exe_i.rd_val)
@@ -202,8 +201,6 @@ always_comb
 assign PC_wen = (net_PC_write_cmd_IDLE || ~stall);
 
 assign if_id_o.instruction = instruction;
-assign if_id_o.net_packet_i = net_packet_i;
-assign if_id_o.net_reg_write_cmd = net_reg_write_cmd;
 assign if_id_o.imm_jump_add = imm_jump_add;
 assign if_id_o.pc_plus1 = pc_plus1;
 
@@ -340,7 +337,7 @@ always_comb
 // or by an an BAR instruction that is committing
 assign barrier_n = net_PC_write_cmd_IDLE
                    ? net_packet_i.net_data[0+:mask_length_gp]
-                   : ((instruction==?`kBAR) & ~stall)
+                   : ((id_exe_i.instruction==?`kBAR) & ~stall)
                      ? alu_result [0+:mask_length_gp]
                      : barrier_r;
 

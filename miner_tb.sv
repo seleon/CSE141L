@@ -16,7 +16,7 @@
 // read from assembled files and store in buffers
 `define hex_i_file "miner_i.hex"
 `define hex_r_file "miner_r.hex"
-`define hex_d_file "output_d.hex"
+`define hex_d_file "asdf_d.hex"
 
 module miner_tb();
 

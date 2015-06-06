@@ -19,7 +19,7 @@ Z9 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/alu.sv
 Z10 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/alu.sv
 L0 4
 Z11 OV;L;10.1e;51
-Z12 !s108 1433546555.820000
+Z12 !s108 1433559514.215000
 Z13 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/alu.sv|
 Z14 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/alu.sv|
 Z15 o-work work -sv -O0
@@ -35,7 +35,7 @@ Z17 !s100 MmX6m9jG]zJ_Ck4>l_d0Q2
 Z18 Inm`1In24U>:mJ[05OmTMM2
 S1
 R7
-Z19 w1433545547
+Z19 w1433559230
 R9
 R10
 Z20 Fdefinitions.sv
@@ -60,12 +60,12 @@ Z24 IH@0PdcFB8GFKdHB9j>3MJ2
 Z25 !s105 cl_decode_sv_unit
 S1
 R7
-Z26 w1433544338
+Z26 w1433559223
 Z27 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_decode.sv
 Z28 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_decode.sv
 L0 4
 R11
-Z29 !s108 1433546555.992000
+Z29 !s108 1433559514.403000
 Z30 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_decode.sv|
 Z31 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_decode.sv|
 R15
@@ -111,7 +111,7 @@ Z41 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_state_machine.sv
 Z42 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_state_machine.sv
 L0 3
 R11
-Z43 !s108 1433546556.227000
+Z43 !s108 1433559514.653000
 Z44 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_state_machine.sv|
 Z45 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/cl_state_machine.sv|
 R15
@@ -147,20 +147,20 @@ Z49 DXx4 work 12 core_sv_unit 0 22 O[zdSMZ4g>EmKz:VNP9RU1
 Z50 V8g;U8en<PLBg@@AL4CL>f3
 r1
 31
-Z51 I4<hjf]O10U=;4?n6EZ[2:0
-Z52 !s105 core_sv_unit
+Z51 !s100 VOhSN^5BGN^`d56mb?M3F3
+Z52 I_bd;[8GzoU0>ZAC@_=HX60
+Z53 !s105 core_sv_unit
 S1
 R7
-Z53 w1433546544
-Z54 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv
-Z55 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv
+Z54 w1433558946
+Z55 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv
+Z56 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv
 L0 3
 R11
-Z56 !s108 1433546556.430000
-Z57 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv|
-Z58 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv|
+Z57 !s108 1433559514.871000
+Z58 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv|
+Z59 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core.sv|
 R15
-Z59 !s100 nb?aD=OhIb75JNL=e]f[P0
 !s85 0
 !i10b 1
 !s101 -O0
@@ -180,7 +180,7 @@ Z66 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_flattened.sv
 Z67 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_flattened.sv
 L0 4
 R11
-Z68 !s108 1433546556.633000
+Z68 !s108 1433559515.106000
 Z69 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_flattened.sv|
 Z70 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_flattened.sv|
 R15
@@ -219,15 +219,15 @@ Z75 !s100 Q67TiG9E9SkDZ_GW^FKbD2
 Z76 IO[zdSMZ4g>EmKz:VNP9RU1
 S1
 R7
-R53
-R54
+R19
 R55
+R56
 R20
 L1 56
 R11
-R56
 R57
 R58
+R59
 R15
 !s85 0
 !i10b 1
@@ -249,7 +249,7 @@ Z83 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv
 Z84 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv
 L0 17
 R11
-Z85 !s108 1433546556.820000
+Z85 !s108 1433559515.340000
 Z86 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv|
 Z87 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv|
 R15
@@ -265,7 +265,7 @@ Z89 !s100 B3>L7A=M;h;d2H2aPGMmA2
 Z90 I;2^izf5SEi70GajiGJNO73
 S1
 R7
-R82
+R19
 R83
 R84
 R20
@@ -295,7 +295,7 @@ Z96 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv
 Z97 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv
 L0 11
 R11
-Z98 !s108 1433546557.086000
+Z98 !s108 1433559515.559000
 Z99 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv|
 Z100 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/data_mem.sv|
 R15
@@ -341,7 +341,7 @@ r1
 31
 Z109 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/definitions.sv|
 R15
-Z110 !s108 1433546557.320000
+Z110 !s108 1433559515.778000
 Z111 !s107 //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/definitions.sv|
 !i10b 1
 !i103 1
@@ -481,7 +481,7 @@ Z156 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv
 Z157 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv
 L0 5
 R11
-Z158 !s108 1433546557.555000
+Z158 !s108 1433559516.028000
 Z159 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv|
 Z160 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv|
 R15
@@ -517,20 +517,20 @@ Z164 DXx4 work 16 miner_tb_sv_unit 0 22 ?=^?TA6PL:5=88m@^lj1G2
 Z165 VmUcjK`[BR2I4D=oC[X9C`0
 r1
 31
-Z166 !s100 BC>P9<cn^mOVd8mM:V72C2
-Z167 IJOlMLk_RRQ:hc7nnYU:>Z0
-Z168 !s105 miner_tb_sv_unit
+Z166 IZ[3C^ZIjE:AZNIQZYk?[H0
+Z167 !s105 miner_tb_sv_unit
 S1
 R7
-Z169 w1432955864
-Z170 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv
-Z171 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv
+Z168 w1433559511
+Z169 8//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv
+Z170 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv
 L0 21
 R11
-Z172 !s108 1433546557.789000
-Z173 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv|
-Z174 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv|
+Z171 !s108 1433559516.262000
+Z172 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv|
+Z173 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/miner_tb.sv|
 R15
+Z174 !s100 JPaEW[BhAf84z`o=;:F>I0
 !s85 0
 !i10b 1
 !s101 -O0
@@ -543,15 +543,15 @@ Z176 !s100 EfQ[D^X81A;0]FjP840Q20
 Z177 I?=^?TA6PL:5=88m@^lj1G2
 S1
 R7
-R19
+R168
+R169
 R170
-R171
 R20
 L1 56
 R11
+R171
 R172
 R173
-R174
 R15
 !s85 0
 !i10b 1
@@ -572,7 +572,7 @@ Z182 F//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv
 R20
 L1 56
 R11
-Z183 !s108 1433546558.055000
+Z183 !s108 1433559516.449000
 Z184 !s107 definitions.sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv|
 Z185 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv|
 R15
@@ -620,7 +620,7 @@ R11
 r1
 !s85 0
 31
-!s108 1433546558.258000
+!s108 1433559516.653000
 !s107 //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/reg_file.sv|
 Z198 !s90 -reportprogress|300|-work|work|-sv|//psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/reg_file.sv|
 !s101 -O0
