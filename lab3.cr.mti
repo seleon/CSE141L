@@ -15,14 +15,6 @@ Top level modules:
 } {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/disassemble.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/disassemble.sv
 Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
 
-} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv
-Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
--- Compiling package core_tb_sv_unit
--- Compiling module core_tb
-
-Top level modules:
-	core_tb
-
 } {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/instr_mem.sv
 Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
 -- Compiling package instr_mem_sv_unit
@@ -30,6 +22,14 @@ Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
 
 Top level modules:
 	instr_mem
+
+} {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/core_tb.sv
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling package core_tb_sv_unit
+-- Compiling module core_tb
+
+Top level modules:
+	core_tb
 
 } {} {}} //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv {1 {vlog -work work -sv //psf/Home/Desktop/CSE/CSE141L/LAB3/lab3/net_packet_logger_s.sv
 Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013

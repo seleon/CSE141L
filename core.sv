@@ -75,17 +75,21 @@ logic [mask_length_gp-1:0] barrier_r,      barrier_n,
 
 ctrl_sig ctrl_o;
 
+logic[31:0] forward_wd;
+logic insert_nop_r, insert_nop_n;
+
+logic fwd_rd, fwd_rs;
+
 //---- Connection to external modules ----//
 
 // Suppress warnings
 assign net_packet_o = net_packet_i;
 
-
 // Data_mem
-assign to_mem_o = '{write_data    : id_exe_i.rs_val
+assign to_mem_o = '{write_data    : exe_mem_i.rs_val
                    ,valid         : valid_to_mem_c
-                   ,wen           : id_exe_i.ctrl.is_store_op_c
-                   ,byte_not_word : id_exe_i.ctrl.is_byte_op_c
+                   ,wen           : exe_mem_i.ctrl.is_store_op_c
+                   ,byte_not_word : exe_mem_i.ctrl.is_byte_op_c
                    ,yumi          : yumi_to_mem_c
                    };
 
@@ -108,9 +112,21 @@ instr_mem #(.addr_width_p(imem_addr_width_p)) imem
            ,.instruction_o(imem_out)
            );
 
-// Since imem has one cycle delay and we send next cycle's address, PC_n,
-// if the PC is not written, the instruction must not change
-assign instruction = (PC_wen_r) ? imem_out : instruction_r;
+always_comb
+begin
+  if(PC_wen_r)
+    instruction = imem_out;
+  else if(insert_nop_r)
+    instruction = 16'b1111111111111111;
+  else if(stall)
+    instruction = instruction_r;
+end
+
+assign if_id_o.instruction = instruction;
+assign if_id_o.net_packet_i = net_packet_i;
+assign if_id_o.net_reg_write_cmd = net_reg_write_cmd;
+assign if_id_o.imm_jump_add = imm_jump_add;
+assign if_id_o.pc_plus1 = pc_plus1;
 
 // Register file
 reg_file #(.addr_width_p($bits(instruction.rs_imm))) rf
@@ -124,8 +140,29 @@ reg_file #(.addr_width_p($bits(instruction.rs_imm))) rf
           ,.rd_val_o(rd_val)
           );
 
-assign rs_val_or_zero = rs_addr ? rs_val : 32'b0;
-assign rd_val_or_zero = rd_addr ? rd_val : 32'b0;
+assign forward_wd = rf_wd;
+
+//Forwarding id_exe values
+always_comb
+  if(if_id_i.instruction.rs_imm == id_exe_i.instruction.rd) begin
+    rs_val_or_zero = forward_wd;
+    fwd_rs = 1;
+  end
+  else begin
+    rs_val_or_zero = if_id_i.instruction.rs_imm ? rs_val : 32'b0;
+    fwd_rs = 0;
+  end
+
+always_comb
+  if(if_id_i.instruction.rd == id_exe_i.instruction.rd) begin
+    rd_val_or_zero = forward_wd;
+    fwd_rd = 1;
+  end
+  else begin
+    rd_val_or_zero = rd_addr ? rd_val : 32'b0;
+    fwd_rd = 0;
+  end
+
 
 assign id_exe_o.instruction = if_id_i.instruction;
 assign id_exe_o.ctrl = ctrl_o;
@@ -143,6 +180,7 @@ alu alu_1 (.rd_i(id_exe_i.rd_val)
           ,.jump_now_o(jump_now)
           );
 
+
 cl_state_machine state_machine (.instruction_i(id_exe_i.instruction)
                                ,.state_i(state_r)
                                ,.exception_i(exception_o)
@@ -150,6 +188,14 @@ cl_state_machine state_machine (.instruction_i(id_exe_i.instruction)
                                ,.stall_i(stall)
                                ,.state_o(state_n)
                                );
+
+assign exe_mem_i.instruction = id_exe_i.instruction;
+assign exe_mem_i.ctrl = id_exe_i.ctrl;
+assign exe_mem_i.imm_jump_add = id_exe_i.imm_jump_add;
+assign exe_mem_i.pc_plus1 = id_exe_i.pc_plus1;
+assign exe_mem_i.rs_val = id_exe_i.rs_val;
+assign exe_mem_i.rd_val = id_exe_i.rd_val;
+assign exe_mem_i.state_n = id_exe_i.state_n;
 
 // Decode module
 cl_decode decode (.instruction_i(if_id_i.instruction)
@@ -202,12 +248,25 @@ always_comb
   end
 
 assign PC_wen = (net_PC_write_cmd_IDLE || ~stall);
+always_ff @ (posedge clk) begin
+  if_id_i <= if_id_o;
+  insert_nop_r = insert_nop_n;
+end
 
-assign if_id_o.instruction = instruction;
-assign if_id_o.net_packet_i = net_packet_i;
-assign if_id_o.net_reg_write_cmd = net_reg_write_cmd;
-assign if_id_o.imm_jump_add = imm_jump_add;
-assign if_id_o.pc_plus1 = pc_plus1;
+always_comb
+begin
+  insert_nop_n = 1'b0;
+  unique casez(instruction)
+    `kJALR, `kBNEQZ, `kBEQZ, `kBLTZ, `kBGTZ, `kLW, `kLBU, `kSW, `kSB:
+      insert_nop_n = 1'b1;
+    default: begin end
+  endcase
+  unique casez(if_id_i.instruction)
+    `kJALR, `kBNEQZ, `kBEQZ, `kBLTZ, `kBGTZ, `kLW, `kLBU, `kSW, `kSB:
+      insert_nop_n = 1'b0;
+    default: begin end
+  endcase
+end
 
 // Sequential part, including PC, barrier, exception and state
 always_ff @ (posedge clk)
